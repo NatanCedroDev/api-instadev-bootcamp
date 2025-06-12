@@ -11,7 +11,7 @@ module.exports = {
         type:Sequelize.INTEGER,
       }, 
       name:{
-        type:SequeDATE,
+        type:Sequelize.DATE,
         allowNull:false,
       },
       user_name:{
@@ -40,7 +40,7 @@ module.exports = {
       created_at:{
         type: Sequelize.DATE,
         allownull:false,
-      }
+      },
       updated_at:{
         type:Sequelize.DATE,
         allowNull:false,
